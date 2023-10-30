@@ -1,0 +1,17 @@
+[technote]
+id = "RTN-066"
+series_id = "RTN"
+canonical_url = "https://rtn-066.lsst.io"
+github_url = "https://github.com/lsst/rtn-066"
+github_default_branch = "main"
+date_created = "2023-10-30T23:59:16Z"
+
+[[technote.authors]]
+name = { name = "Frossie Economou" }
+# orcid = "https://orcid.org/..."
+# affiliations = [
+#     { name = "Rubin Observatory", ror = "https://ror.org/048g3cy84" }
+# ]
+
+[technote.status]
+state = "draft"
