@@ -54,7 +54,6 @@ An ideal workflow therefore has the following features:
 ## A Workflow Example
 
 ```{figure} obs_jira.png
-:target: obs_jira.png
 :alt: workflow diagram
 
 A simple representation of a worfklow based on OBS as the central entry point for night-time faults
