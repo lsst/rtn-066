@@ -12,11 +12,11 @@ Abstract
    12 highly active JIRA projects supporting this diverse collection of
    workflows and they are central to the working day of project staff.
 
-With nightly telescope operations becoming a central focus, the question
-arises of how and to what extent to integrate night-time operations to
-the well developed workflows staff are already using. This document
-discusses some of the issues raised and proposes a workflow as a basis
-of further discussion.
+   With nightly telescope operations becoming a central focus, the question
+   arises of how and to what extent to integrate night-time operations to
+   the well developed workflows staff are already using. This document
+   discusses some of the issues raised and proposes a workflow as a basis
+   of further discussion.
 
 Context
 -------
