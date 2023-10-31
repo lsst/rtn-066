@@ -151,7 +151,7 @@ An ideal workflow therefore has the following features:
 A Workflow Example
 ------------------
 
-.. image:: obs_jira.png
+.. figure:: obs_jira.png
    :scale: 15 %
 
 For the purposes of supporting discussion, here is a workflow that
