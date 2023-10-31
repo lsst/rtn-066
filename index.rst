@@ -151,6 +151,8 @@ An ideal workflow therefore has the following features:
 A Workflow Example
 ------------------
 
+.. image:: obs_jira.svg
+
 For the purposes of supporting discussion, here is a workflow that
 attempts to address the issues raised above:
 
