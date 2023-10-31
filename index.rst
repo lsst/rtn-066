@@ -1,4 +1,4 @@
-On JIRA workflows for ovservatory operations
+On JIRA workflows for observatory operations
 ============================================
 
 Abstract
@@ -48,8 +48,7 @@ debate on this issue is that for obvious and understandable reasons:
 An example of the former is the JIRA `OBS
 project <https://jira.lsstcorp.org/browse/OBS>`__ and examples of the
 latter are the `DM
-projec <https://jira.lsstcorp.org/browse/DM>`__\ `t <https://jira.lsstcorp.org/browse/OBS>`__
-used by the Data Management and Telescope & Site engineers for software
+project <https://jira.lsstcorp.org/browse/DM>`__used by the Data Management and Telescope & Site engineers for software
 work, the `FRACAS project <https://jira.lsstcorp.org/browse/FRACAS>`__
 used by the Systems Engineering team for failure analysis work and the
 `IT project <https://jira.lsstcorp.org/browse/IT>`__
@@ -68,7 +67,8 @@ There are only three solution spaces to this kind of problem:
    such as people reassigning/re-filing/moving tickets from one project
    to the other.
 
-**Discussion**
+Discussion
+~~~~~~~~~~
 
 People tend to gravitate to option 3 for sociological reasons: it avoids
 upsetting whoever loses out on options 1 & 2, which are essentially
@@ -171,7 +171,8 @@ attempts to address the issues raised above:
 
 Below are some common night time faults as illustrative examples.
 
-**The mostly-for-the-record ticket**
+The mostly-for-the-record ticket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Examples:
 
@@ -194,7 +195,8 @@ Typically there is no further traffic on the ticket but they are still
 useful, e.g., in avoiding somebody reporting that a TV HDMI cable is
 suddenly wrapped in duct tape….
 
-**The information-eliciting ticket**
+The information-eliciting ticket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    “The data reduction issued a Warning about [X]”
 
@@ -225,7 +227,8 @@ if the information provided did not address their concern, e.g.,
    “The computer might be fine, but the fan noise is driving us crazy.
    Please replace”
 
-**The quick-fix ticket**
+The quick-fix ticket
+~~~~~~~~~~~~~~~~~~~~
 
    “The recently hired observer could not log onto the Science
    Platform.”
@@ -250,7 +253,8 @@ because a technical ticket already exists, e.g.,
 Typically either the responder closes the ticket, or the responder asks
 for a fix verification after which the observer closes the ticket.
 
-**The Houston-we-have-a-problem ticket**
+The Houston-we-have-a-problem ticket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    “There are waffle patterns all over the data.”
 
@@ -292,7 +296,8 @@ time, effort or priority, the fix is a long time coming; they are not
 all necessarily catastrophic and/or urgent. A lot of software issues
 tend to fall in this category.
 
-**The long-lived problem re-occurence ticket**
+The long-lived problem re-occurrence ticket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is the second most frustrating type of problem for everyone
 concerned. It starts with something like
@@ -331,7 +336,8 @@ observers) may need to take action to draw management attention to the
 need for a permanent solution rather than a repeated application of
 workarounds.
 
-**The who-knows? ticket**
+The who-knows? ticket
+~~~~~~~~~~~~~~~~~~~~~
 
 This is by far the most frustrating observatory operations ticket for
 everyone concerned. It starts with a report of, say, a data artifact,
