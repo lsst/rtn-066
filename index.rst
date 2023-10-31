@@ -152,6 +152,7 @@ A Workflow Example
 ------------------
 
 .. image:: obs_jira.png
+   :scale: 15 %
 
 For the purposes of supporting discussion, here is a workflow that
 attempts to address the issues raised above:
