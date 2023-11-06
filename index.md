@@ -1,5 +1,11 @@
 # JIRA workflows for operations
 
+```{note}
+This technote does not, at the present time, define Rubin Observatory or practice.
+
+It proposes a process as a basis of further discussion.
+```
+
 ## Context
 
 Rubin has extensive and in some cases sophisticated workflows based on JIRA for anything from managing planned work, to reporting bugs, to defining validation campaigns, to managing staff travel. There are 12 highly active JIRA projects supporting this diverse collection of workflows and they are central to the working day of project staff.
@@ -191,25 +197,25 @@ The up-side is the cross-system troubleshooting can be a fun cross-team activity
 
 Appendix A: Jira workflows and fields (editorial)
 
-This is another tension presented by the needs of the reporter, who really wants to type in their thing and run, and the needs of the assignee or manager, who wants as much classification as possible (which system, which component, software or hardware, bug or user error, etc). 
+This is another tension presented by the needs of the reporter, who really wants to type in their thing and run, and the needs of the assignee or manager, who wants as much classification as possible (which system, which component, software or hardware, bug or user error, etc).
 
-Having done JIRA administration for decades now, the biggest mistake I see is people doing premature classification when setting up new projects. This can end up being hard to sustain, is a burden on the reporter who has to sit there and reflect on which fields to pick, and avoids the fact that there are many errors in an observatory that don't fit neatly in any one category. 
+Having done JIRA administration for decades now, the biggest mistake I see is people doing premature classification when setting up new projects. This can end up being hard to sustain, is a burden on the reporter who has to sit there and reflect on which fields to pick, and avoids the fact that there are many errors in an observatory that don't fit neatly in any one category.
 
 The most troublesome field of all though is "priority". Everybody likes the idea of setting their ticket to high priority but this never really works - priority is not a value, it's a rank on a fluid list: what was priority 1 becomes priority 2 the moment you set something else as priority one. There is an idea that there are "very important" and "less important things" but that is also not a plan that survives encounter with the enemy: sometimes a non-crticial thing that affects many people's quality life should (and does) get done ahead of another item. My experience with people who insist on a priority field is that they start with 1, 2, 3 and then it goes to 1A, 1B, 1C and they they add critical and soon nothing means anything and everyone is demoralized at being asked why priority N is not getting done.
 
-The important point is that you can never determine nuanced priority accurately at filing or even triage; it can only be determined in conjuction with an engineer's load and development roadmap, which is why in agile it is best done when pulling tickets for assignment by technical managers and not before. 
+The important point is that you can never determine nuanced priority accurately at filing or even triage; it can only be determined in conjuction with an engineer's load and development roadmap, which is why in agile it is best done when pulling tickets for assignment by technical managers and not before.
 
-That said, there is one simple boolean flag that can be of great value to an observatory: the "Urgent" tickbox. This is a very simple value that is the equivalent to "if this doesn't get fixed before next observing we are dead in the water and/or the data is useless". In previous observatories I have worked in it was tantamout to an authorization of overtime -night, weekend, holiday, etc (even in best effort basis environments, you want to know whether that ticket that got filed on a Saturday night is worth booting up your laptop for). Abuse of this field is easily detected, and it clarifies rather the situation for engineers rather than overwhelm them. 
+That said, there is one simple boolean flag that can be of great value to an observatory: the "Urgent" tickbox. This is a very simple value that is the equivalent to "if this doesn't get fixed before next observing we are dead in the water and/or the data is useless". In previous observatories I have worked in it was tantamout to an authorization of overtime -night, weekend, holiday, etc (even in best effort basis environments, you want to know whether that ticket that got filed on a Saturday night is worth booting up your laptop for). Abuse of this field is easily detected, and it clarifies rather the situation for engineers rather than overwhelm them.
 
 Appendix B: Daytime work
 
-Observers do rely on the ticketing system to understand what the status of issues they have opened, so the obvious question becomes "what about daytime work that might affect status that was not done as result of a ticket" - such as engineering work that should not have had an effect on observing but the fact that a system was worked on is useful information: if you know work on the A/C was done, and the A/C does not work, it is a hint that you should go check if someone forgot to turn the A/C back on after they were done. 
+Observers do rely on the ticketing system to understand what the status of issues they have opened, so the obvious question becomes "what about daytime work that might affect status that was not done as result of a ticket" - such as engineering work that should not have had an effect on observing but the fact that a system was worked on is useful information: if you know work on the A/C was done, and the A/C does not work, it is a hint that you should go check if someone forgot to turn the A/C back on after they were done.
 
-This is a hard issue because it is closely related to preventative maintenance and good luck moving engineers away from whatever system they have for tracking that. 
+This is a hard issue because it is closely related to preventative maintenance and good luck moving engineers away from whatever system they have for tracking that.
 
-A much simpler situation is when something happened during the day but _that is not a relevant fact_. For example, if  the RSP is down for a daytime visitor it is no different than it being down for an observer; if the TCS will not run up for daytime tests, it is no different than it not running up for data taking. 
+A much simpler situation is when something happened during the day but _that is not a relevant fact_. For example, if  the RSP is down for a daytime visitor it is no different than it being down for an observer; if the TCS will not run up for daytime tests, it is no different than it not running up for data taking.
 
-So a simple heuristic for this situation is: if this had happened at night would it be an OBS ticket? if the answer is yes, it is reasonable to keep it as an OBS ticket for daytime / bad weather situations too, to avoid the proliferation of systems and processes. 
+So a simple heuristic for this situation is: if this had happened at night would it be an OBS ticket? if the answer is yes, it is reasonable to keep it as an OBS ticket for daytime / bad weather situations too, to avoid the proliferation of systems and processes.
 
 
 
