@@ -1,7 +1,7 @@
 # JIRA workflows for operations
 
 ```{note}
-This technote does not, at the present time, define Rubin Observatory or practice.
+This technote does not, at the present time, define Rubin Observatory policy or practice.
 
 It proposes a process as a basis of further discussion.
 ```
