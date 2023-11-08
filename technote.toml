@@ -12,6 +12,8 @@ orcid = "https://orcid.org/0000-0002-8333-7615"
 # affiliations = [
 #     { name = "Rubin Observatory", ror = "https://ror.org/048g3cy84" }
 # ]
+[[technote.authors]]
+name = { name = "Alysha Shugart" }
 
-[technote.status]
-state = "draft"
+#[technote.status]
+#state = "draft"
